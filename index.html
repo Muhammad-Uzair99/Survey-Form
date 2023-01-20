@@ -7,7 +7,41 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h1 id="title"><em>freecodecamp</em> Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <main>
+
+            <!-- Heading -->
+
+            <h1 id="title"><em>freecodecamp</em> Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+            <!--Form-->
+
+            <form method="post" action="#" id="survey-form">
+                
+                <!-- Personal Info -->
+
+                <fieldset>
+                    <label id="name-label" for="name">Name
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    </label>
+                    <label id="email-label" for="email">Email
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </label>
+                    <label id="number-label" for="age">Age (optional)
+                        <input type="number" id="age" name="age" min="10" max="120" placeholder="Enter Your Age">
+                    </label>
+                    <label>Which option best describes your current role?
+                        <select>
+                            <option>Select Current Role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </form>
+        </main>
     </body>
 </html>
