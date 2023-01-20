@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, #800080, #0000ff, #00008b, #0000ff, #800080,
+    background: linear-gradient(90deg, #800080, #0000ff, #00008b, #0000ff, #800080,
     #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080,
     #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080);
     height: 100vh;
@@ -7,6 +7,8 @@ body {
     color:#fff;
     margin: 0;
     font-family: Tahoma, Verdana, Geneva;
+    font-style: oblique;
+    font-weight: 800;
 }
 
 #title, #description {
@@ -26,10 +28,12 @@ body {
 
 fieldset{
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 #survey-form {
-    width: 80%;
+    width: 60%;
     max-width: 900px;
     min-width: 250px;
     margin: 2em auto;
@@ -39,4 +43,48 @@ fieldset{
     border-width: 1px;
     border-style: solid;
     box-shadow: 0 0 3em #820082;
+    padding: 1.5rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 0.5em auto 1.5em auto;
+    height: 2rem;
+    border-radius: 6px;
+    background: linear-gradient(rgb(8, 0, 126) 0%, rgb(3, 0, 41) 9%, rgb(3, 0, 41) 91%, rgb(8, 0, 126) 100%);
+    color: #FFF;
+    border: 2px solid rgb(8, 0, 126);
+    box-shadow: 0 0 3em #000;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: unset;
+    height: auto;
+    margin: unset;
+}
+
+label {
+    display:block;
+    margin: 0.5em auto;
+}
+
+select option {
+    background-color: rgb(3, 0, 41);
+    font-family: Tahoma, Verdana, Geneva;
+    font-style: oblique;
+    font-weight: 700;
+}
+ select {
+    height: 2.5rem;
+ }
+
+input[type="submit"] {
+    background: linear-gradient(#0000ff, #01016e, #0000ff);
+    height: 3em;
+    box-shadow: 0 0 3em #000;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(#01016e, #0000ff, #01016e);
 }
