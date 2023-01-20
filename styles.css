@@ -2,13 +2,14 @@ body {
     background: linear-gradient(90deg, #800080, #0000ff, #00008b, #0000ff, #800080,
     #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080,
     #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080);
-    height: 100vh;
-    padding: 0;
+    height: auto;
+    padding: 0 0 3em 0;
     color:#fff;
     margin: 0;
     font-family: Tahoma, Verdana, Geneva;
     font-style: oblique;
     font-weight: 800;
+
 }
 
 #title, #description {
@@ -28,8 +29,6 @@ body {
 
 fieldset{
     border: none;
-    margin: 0;
-    padding: 0;
 }
 
 #survey-form {
@@ -82,7 +81,7 @@ select option {
 input[type="submit"] {
     background: linear-gradient(#0000ff, #01016e, #0000ff);
     height: 3em;
-    box-shadow: 0 0 3em #000;
+    box-shadow: 0 0 2em #000;
 }
 
 input[type="submit"]:hover {
