@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(45deg, #800080, #0000ff, #00008b, #0000ff, #800080,
+    #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080,
+    #0000ff, #00008b, #0000ff, #800080, #0000ff, #00008b, #0000ff, #800080);
+    height: 100vh;
+    padding: 0;
+    color:#fff;
+    margin: 0;
+    font-family: Tahoma, Verdana, Geneva;
+}
+
+#title, #description {
+    text-align: center;
+    text-shadow: 3px 3px 12px #000, -3px -3px 12px #820082;
+}
+
+#title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#description {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+fieldset{
+    border: none;
+}
+
+#survey-form {
+    width: 80%;
+    max-width: 900px;
+    min-width: 250px;
+    margin: 2em auto;
+    background: linear-gradient(rgba(18, 0, 185, 0.8) 0%, rgba(3, 0, 26, 0.8) 9%, rgb(3, 0, 26, 0.8) 91%, rgba(18, 0, 185, 0.8));
+    border-radius: 21px;
+    border-color: rgb(4, 0, 37) rgb(18, 0, 185);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0 0 3em #820082;
+}
