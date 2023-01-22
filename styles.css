@@ -35,12 +35,12 @@ fieldset{
     max-width: 900px;
     min-width: 250px;
     margin: 2em auto;
-    background: linear-gradient(rgba(7, 0, 99, 0.8) 0%, rgba(1, 0, 17, 0.8) 9%, rgb(1, 0, 17, 0.8) 91%, rgba(7, 0, 99, 0.8));
+    background: linear-gradient(rgba(36, 34, 75, 0.95) 0%, rgba(10, 1, 29, 0.95) 9%, rgba(10, 1, 29, 0.95) 91%, rgba(36, 34, 75, 0.95));
     border-radius: 21px;
-    border-color: rgb(4, 0, 37) rgb(18, 0, 185);
+    border-color: rgb(10, 1, 29) rgb(36, 34, 75);
     border-width: 1px;
     border-style: solid;
-    box-shadow: 0 0 3em #820082;
+    box-shadow: 0 0 2em rgb(105, 0, 91);
     padding: 1.5rem;
 }
 
