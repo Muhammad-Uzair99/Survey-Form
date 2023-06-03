@@ -888,12 +888,20 @@ select {
   fill: #0f172a;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .indent-1 {
   text-indent: 0.25rem;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-4xl {
@@ -918,8 +926,16 @@ select {
   font-weight: 600;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .italic {
   font-style: italic;
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow-lg {
